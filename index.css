@@ -82,7 +82,7 @@ main {
 /* Header Section Design */
 #header {
     background-color: #FFF8F3;
-    background-image: url('/images/header_bg.png'), url('/images/developer.png');
+    background-image: url('images/header_bg.png'), url('images/developer.png');
     background-repeat: no-repeat;
     background-position: bottom right, center left;
     background-size: 640px 390px, 70px 95%;
