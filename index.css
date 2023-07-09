@@ -2,23 +2,23 @@
 
 /* Universal Design */
 
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
 }
 
-li{
+li {
     list-style: none;
     text-decoration: none;
 }
 
-a{
+a {
     text-decoration: none;
     font-size: 20px;
 }
 
-button{
+button {
     color: white;
     background-color: #FD6E0A;
     border-radius: 5px;
@@ -28,16 +28,16 @@ button{
     border: none;
 }
 
-.descirption{
+.descirption {
     font-size: 18px;
     color: #757575;
     font-weight: 300;
 }
 
-.title{
-font-size: 35px;
-font-weight: 700;
-text-align: center;
+.title {
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
 }
 
 /* Nav Section Design */
@@ -48,21 +48,21 @@ nav {
     padding: 30px 120px 120px 120px;
 }
 
-.logo{
+.logo {
     font-size: 45px;
     font-weight: 800;
 
 }
 
-.logo > span {
+.logo>span {
     color: #FD6E0A;
 }
 
-nav li{
-        margin-left: 20px;
+nav li {
+    margin-left: 20px;
 }
 
-nav ul{
+nav ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -73,39 +73,37 @@ nav a {
     font-weight: 300;
 }
 
-main{
+main {
     padding: 120px;
 }
 
 
 
 /* Header Section Design */
-#header{
-   background-color: #FFF8F3;
-      background-image: url('../images/header_bg.png'), url('../images/developer.png');
-      background-repeat: no-repeat;
-      background-position: bottom right, center left;
-      background-size: 640px 390px, 70px 95%;
-      height: 100vh;
+#header {
+    background-color: #FFF8F3;
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, center left;
+    background-size: 640px 390px, 70px 95%;
+    height: 100vh;
 
 }
 
-.header-content{
-    display: flex;
-    justify-content: space-between;
-    padding: 0 0 0 140px;
+.header-content {
+    padding: 0 0 0 120px;
 }
 
-.text-content{
-    width: 600px;
-    align-items: center;
+.text-content {
+    width: 550px;
 }
 
-.profile-image-div{
+.profile-image-div {
     width: 350px;
     height: 400px;
 }
-.profile-image{
+
+.profile-image {
     width: 400px;
     height: 450px;
     position: absolute;
@@ -114,68 +112,70 @@ main{
 }
 
 
-.header-greet{
+.header-greet {
     font-size: 45px;
     font-weight: 500;
     color: #474747;
 }
 
-.header-title{
+.header-title {
     font-size: 85px;
     color: #181818;
     font-weight: 700;
 }
 
-.header-descirption{
+.header-descirption {
     font-size: 18px;
     color: #757575;
     font-weight: 300;
-    margin: 20px 0 ;
+    margin: 20px 0;
+
 
 }
 
-.cta-head{
+.cta-head {
     display: flex;
     gap: 25px;
 }
 
-.btn{
+.btn {
     border: 1px solid #FD6E0A;
     background-color: white;
     color: #FD6E0A;
 
 }
-.icon{
+
+.icon {
     margin-right: 10px;
 }
 
 /* About Section Design */
 
-.about-container{
+.about-container {
     background-color: #FFF8F3;
 
     padding: 120px;
     text-align: center;
 }
 
-.about-title{
+.about-title {
     margin-bottom: 30px;
 }
 
-.personal-info{
+.personal-info {
     display: flex;
     margin-top: 30px;
     justify-content: space-around;
 
 }
 
-.name{
+.name {
     color: #757575;
     font-size: 18px;
     font-weight: 400;
 }
 
-.info{
+.info {
     font-size: 20px;
     color: #474747;
     font-weight: 700;
@@ -183,47 +183,48 @@ main{
 
 /* What I do section Design Section Design */
 
-.what-i-do-container{
+.what-i-do-container {
     padding: 120px 0;
 }
 
-.text-container{
+.text-container {
     width: 800px;
     text-align: center;
     margin: auto;
 }
 
-.text-container .descirption{
+.text-container .descirption {
     margin: 40px 0;
 }
+
 /* What I do [Skill Card Section] Design */
 
-.skill-card-container{
+.skill-card-container {
     display: flex;
     justify-content: space-between;
     gap: 20px;
 }
 
-.skill-card{
-border-radius: 5px;
-padding: 25px 20px;
-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+.skill-card {
+    border-radius: 5px;
+    padding: 25px 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
 
-.skill-card img{
+.skill-card img {
     width: 40px;
     height: 40px;
 }
 
-.skill-card h3{
-margin: 20px 0;
+.skill-card h3 {
+    margin: 20px 0;
 }
 
 /* Resume Section */
-.button{
-display: flex;
-justify-content: center;
-margin: 30px 0;
+.button {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
 }
 
 .resume-container .title {
@@ -231,42 +232,114 @@ margin: 30px 0;
     text-align: center;
 }
 
-.education-card, .experience-card{
+.education-card,
+.experience-card {
     padding: 10px 10px 10px 0;
 
 }
-.resume-content{
+
+.resume-content {
     display: flex;
     justify-content: space-between;
     gap: 20px;
 }
 
-.resume-content h1{
+.resume-content h1 {
     font-size: 30px;
     font-weight: 700;
     color: #474747;
     margin: 25px 0;
 }
 
-.resume-content h2{
+.resume-content h2 {
     font-size: 25px;
     font-weight: 700;
     color: #474747;
     margin: 5px 0;
 }
-.resume-content h3{
+
+.resume-content h3 {
     font-size: 20px;
     font-weight: 500;
     color: #757575;
     margin: 5px 0;
 }
-.resume-content p{
+
+.resume-content p {
     font-size: 18px;
     font-weight: 300;
     color: #757575;
     margin: 20px 0;
 }
 
-hr{
+hr {
     margin: 10px 0;
+}
+
+/* Footer Section */
+footer {
+    background-color: #FFF8F3;
+    padding: 0 120px;
+}
+
+.footer-container {
+    display: flex;
+    padding: 80px 0;
+    justify-content: space-between;
+    gap: 80px;
+
+}
+
+.contact-text {
+    width: 570px;
+}
+
+footer h1 {
+    font-size: 35px;
+    font-weight: 700;
+    margin: 20px 0;
+}
+
+footer p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #757575;
+    margin: 20px 0;
+}
+
+.social-icon img{
+    margin-right: 20px;
+    margin-top: 20px;;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    color: #757575;
+    width: 400px;
+}
+
+input,
+textarea {
+    font-family: 'Open Sans', sans-serif;
+    color: #757575;
+    height: 30px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border-style: none;
+    width: 95%;
+    padding: 10px;
+}
+
+textarea {
+    height: 100px;
+}
+
+.submit-cta {
+    margin: 10px 0;
+}
+
+.submit {
+    width: 150px;
+    padding: 15px 0;
 }
