@@ -220,8 +220,15 @@ margin: 20px 0;
 }
 
 /* Resume Section */
+.button{
+display: flex;
+justify-content: center;
+margin: 30px 0;
+}
+
 .resume-container .title {
     margin: 0 0 80px 0;
+    text-align: center;
 }
 
 .education-card, .experience-card{
@@ -258,4 +265,8 @@ margin: 20px 0;
     font-weight: 300;
     color: #757575;
     margin: 20px 0;
+}
+
+hr{
+    margin: 10px 0;
 }
