@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,500;0,600;0,700;0,800;1,400&display=swap');
+
+/* Universal Design */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+li{
+    list-style: none;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+button{
+    color: white;
+    background-color: #FD6E0A;
+    border-radius: 5px;
+    padding: 17px 25px;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+}
+
+.descirption{
+    font-size: 18px;
+    color: #757575;
+    font-weight: 300;
+}
+
+.title{
+font-size: 35px;
+font-weight: 700;
+text-align: center;
+}
+
+/* Nav Section Design */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 120px 120px 120px;
+}
+
+.logo{
+    font-size: 45px;
+    font-weight: 800;
+
+}
+
+.logo > span {
+    color: #FD6E0A;
+}
+
+nav li{
+        margin-left: 20px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: #474747;
+    font-weight: 300;
+}
+
+main{
+    padding: 120px;
+}
+
+
+
+/* Header Section Design */
+#header{
+   background-color: #FFF8F3;
+      background-image: url('../images/header_bg.png'), url('../images/developer.png');
+      background-repeat: no-repeat;
+      background-position: bottom right, center left;
+      background-size: 640px 390px, 70px 95%;
+      height: 100vh;
+
+}
+
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 0 140px;
+}
+
+.text-content{
+    width: 600px;
+    align-items: center;
+}
+
+.profile-image-div{
+    width: 350px;
+    height: 400px;
+}
+.profile-image{
+    width: 400px;
+    height: 450px;
+    position: absolute;
+    bottom: 0;
+    right: 25px;
+}
+
+
+.header-greet{
+    font-size: 45px;
+    font-weight: 500;
+    color: #474747;
+}
+
+.header-title{
+    font-size: 85px;
+    color: #181818;
+    font-weight: 700;
+}
+
+.header-descirption{
+    font-size: 18px;
+    color: #757575;
+    font-weight: 300;
+    margin: 20px 0 ;
+
+}
+
+.cta-head{
+    display: flex;
+    gap: 25px;
+}
+
+.btn{
+    border: 1px solid #FD6E0A;
+    background-color: white;
+    color: #FD6E0A;
+
+}
+.icon{
+    margin-right: 10px;
+}
+
+/* About Section Design */
+
+.about-container{
+    background-color: #FFF8F3;
+
+    padding: 120px;
+    text-align: center;
+}
+
+.about-title{
+    margin-bottom: 30px;
+}
+
+.personal-info{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-around;
+
+}
+
+.name{
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.info{
+    font-size: 20px;
+    color: #474747;
+    font-weight: 700;
+}
+
+/* What I do section Design Section Design */
+
+.what-i-do-container{
+    padding: 120px 0;
+}
+
+.text-container{
+    width: 800px;
+    text-align: center;
+    margin: auto;
+}
+
+.text-container .descirption{
+    margin: 40px 0;
+}
+/* What I do [Skill Card Section] Design */
+
+.skill-card-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.skill-card{
+border-radius: 5px;
+padding: 25px 20px;
+box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.skill-card img{
+    width: 40px;
+    height: 40px;
+}
+
+.skill-card h3{
+margin: 20px 0;
+}
