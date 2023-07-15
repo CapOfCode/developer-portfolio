@@ -40,6 +40,10 @@ button {
     text-align: center;
 }
 
+.hidden {
+    display: none;
+}
+
 /* Nav Section Design */
 
 nav {
@@ -307,9 +311,10 @@ footer p {
     margin: 20px 0;
 }
 
-.social-icon img{
+.social-icon img {
     margin-right: 20px;
-    margin-top: 20px;;
+    margin-top: 20px;
+    ;
 }
 
 form {

@@ -1,0 +1,90 @@
+@media screen and (max-width: 576px) {
+    .header-title {
+        font-size: 50px;
+        font-weight: 800;
+        text-align: center;
+    }
+
+
+    .header-greet {
+        font-size: 30px;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    .descirption {
+        text-align: center;
+    }
+
+
+    .cta-head {
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+        margin: auto;
+    }
+
+    nav {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 5%;
+        background-color: aquamarine;
+    }
+
+
+
+    nav ul {
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .header-content {
+        padding: 5%;
+        height: 80vh;
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+
+    .text-content {
+        width: fit-content;
+    }
+
+
+
+
+    .profile-image-div {
+        background-image: url("images/hardy.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: #FD6E0A;
+        border-radius: 50%;
+        margin: auto;
+        height: 600px;
+        width: 280px;
+
+    }
+
+    .profile-image {
+        display: none;
+    }
+
+    #header {
+        background-image: none;
+    }
+
+
+
+
+
+
+
+
+
+
+
+}
